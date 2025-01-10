@@ -9,11 +9,11 @@ using TMPro;
 public class Collect : MonoBehaviour
 {
     public int score = 0;
-    public TextMeshProUGUI Text;
-
+    public TextMeshProUGUI counter;
+    
     void Update()
     {
-        Text.text = score.ToString();
+        counter.text = score.ToString();
     }
     public void OnTriggerEnter(Collider K)
     {

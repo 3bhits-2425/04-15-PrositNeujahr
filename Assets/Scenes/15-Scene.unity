@@ -1196,6 +1196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171760403}
   - component: {fileID: 1171760404}
+  - component: {fileID: 1171760405}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -1230,8 +1231,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 070ddac3552fee043a2253edf6a8cbad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Collect: {fileID: 156768781}
   toDo: {fileID: 335264247}
   time: 5
+--- !u!114 &1171760405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171760402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53eb06ae1f4755e4f8902d25da4c3c66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1907346435}
+  tree: {fileID: 1486539187}
+  radius: 50
+  messageText: {fileID: 335264247}
 --- !u!1 &1181773732
 GameObject:
   m_ObjectHideFlags: 0

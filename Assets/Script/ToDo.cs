@@ -6,23 +6,29 @@ using System;
 
 public class ToDo : MonoBehaviour
 {
-    private Collect Collect;
+    public Collect Collect;
     public TextMeshProUGUI toDo;
     public float time = 5.0f;
+    private bool hasMethodRun;
+
     void Start()
     {
         toDo.text = "Collect 9 Baubles!";
         StartCoroutine(HideTextAfterTime(time));
     }
+    void Update()
+    {
+        if (Collect.score >= 9 && !hasMethodRun)
+        {
+            toDo.text = "Find the Christmas Tree!";
+            StartCoroutine(HideTextAfterTime(time));
+            hasMethodRun = true;
+        }
+    }
+
     IEnumerator HideTextAfterTime(float time)
     {
         yield return new WaitForSeconds(time);
         toDo.text = "";
-
-        if (Collect.score == 9)
-        {
-            toDo.text = "Find the Christmas Tree!";
-            StartCoroutine(HideTextAfterTime(time));
-        }
     }
 }

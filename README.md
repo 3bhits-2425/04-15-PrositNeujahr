@@ -2,18 +2,18 @@
 
 ## 📖 About the Game
 
-**"04-15-PrositNeujahr"** takes you on an enchanting journey starting on **Christmas Eve, 2024**. Your mission? Collect **9 Christmas Baubles** scattered across the floor. Once you’ve gathered them all, find the magical **Christmas Tree** and touch it to unlock the next chapter of the adventure.
+**"04-15-PrositNeujahr"** takes you on a beautiful journey starting on **Christmas Eve, 2024**. Your mission? Collect **9 Christmas Baubles** laying across the floor. Once you’ve got them all, find the magical **Christmas Tree** and touch it to unlock the next (better ;) )chapter of the adventure.
 
-You’ll then be transported to a dazzling **New Year's Eve celebration** in 2025, complete with stunning **fireworks** lighting up the night sky.
+You’ll then be transported to a crazy **New Year's Eve celebration** in 2025, complete with stunning **fireworks** lighting up the night sky.
 
 ---
 
 ## ✨ Features
 
-- **Christmas Spirit**: Immerse yourself in a festive environment with holiday-themed visuals and music.
+- **Christmas Spirit**: Immerse yourself in a festive environment with holiday-themed visuals.
 - **Engaging Gameplay**: Search for 9 Christmas Baubles while exploring a beautifully designed world.
-- **Dynamic Transition**: Travel seamlessly from Christmas to a vibrant New Year celebration.
-- **Spectacular Fireworks**: Experience the thrill of a grand fireworks display as you welcome 2025!
+- **Dynamic Transition**: Spawn seamlessly from Christmas to a vibrant New Year celebration.
+- **Spectacular Fireworks**: Experience the thrill of fireworks display as you welcome 2025!
 
 ---
 

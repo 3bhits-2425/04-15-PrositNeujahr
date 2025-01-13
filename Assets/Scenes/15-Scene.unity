@@ -1250,7 +1250,7 @@ Transform:
   m_GameObject: {fileID: 887324649}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 330.96, y: 2.7247725, z: 562.8}
+  m_LocalPosition: {x: 331.7, y: 2.7247725, z: 562.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1656,9 +1656,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53eb06ae1f4755e4f8902d25da4c3c66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1907346435}
-  tree: {fileID: 1181773732}
-  radius: 300
+  player: {fileID: 156768774}
+  tree: {fileID: 1486539187}
+  radius: 15
   messageText: {fileID: 335264247}
   baubles:
   - {fileID: 1928300234}
@@ -1674,6 +1674,8 @@ MonoBehaviour:
   Carpet: {fileID: 1440902335}
   time: 5
   treeCollider: {fileID: 1486539191}
+  distance: 0
+  treeAll: {fileID: 1181773732}
 --- !u!1 &1181773732
 GameObject:
   m_ObjectHideFlags: 0
@@ -2505,15 +2507,16 @@ GameObject:
   - component: {fileID: 1440902336}
   - component: {fileID: 1440902339}
   - component: {fileID: 1440902338}
-  - component: {fileID: 1440902340}
   - component: {fileID: 1440902341}
+  - component: {fileID: 1440902340}
+  - component: {fileID: 1440902342}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Carpet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1440902336
 Transform:
   m_ObjectHideFlags: 0
@@ -2579,7 +2582,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440902335}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!135 &1440902340
+--- !u!54 &1440902340
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440902335}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &1440902341
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2600,27 +2630,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0.0000011920929}
---- !u!135 &1440902341
-SphereCollider:
+--- !u!114 &1440902342
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440902335}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0.0000011920929}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a8476639116914087f5c2cb165171f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1486539187 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 192044, guid: 19682540d8a014522a319b1cf788aee2, type: 3}
@@ -2792,6 +2813,10 @@ PrefabInstance:
     - target: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_Name
       value: First Person Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 1773623360729482, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalPosition.x

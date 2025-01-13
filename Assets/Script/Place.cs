@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Place : MonoBehaviour
 {
@@ -16,10 +15,12 @@ public class Place : MonoBehaviour
     public GameObject Carpet;
     public float time = 5.0f;
     public Collider treeCollider;
+    public float distance;
+    public GameObject treeAll;
 
     void Update()
     {
-        float distance = Vector3.Distance(player.transform.position, tree.transform.position);
+        distance = Vector3.Distance(player.transform.position, tree.transform.position);
 
        
         if (distance <= radius && !isInRadius)
@@ -50,7 +51,7 @@ public class Place : MonoBehaviour
 
                 if (Collect.score == 0 && AllBaublesPlaced())
                 {
-                    tree.SetActive(false);
+                    treeAll.SetActive(false);
                     treeCollider.enabled = false;
                     Carpet.SetActive(true);
                     messageText.text = "enter the Carpet";
@@ -76,15 +77,6 @@ public class Place : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         messageText.text = "";
-    }
-    private void OnTriggerEnter(Collider x)
-    {
-        Debug.Log("Collider entered: " + x.gameObject.name);
-        if (x.gameObject.tag == "Carpet")
-        {
-            Debug.Log("Entering Carpet - Loading Scene");
-            SceneManager.LoadScene("04-Scene");
-        }
     }
 
 }

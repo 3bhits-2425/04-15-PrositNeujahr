@@ -21,8 +21,9 @@ You’ll then be transported to a crazy **New Year's Eve celebration** in 2025, 
 
 1. **Start the game** on Christmas Eve, 2024.
 2. **Explore the environment** to find and collect all 9 Christmas Baubles.
-3. **Locate the Christmas Tree** and touch it to proceed to the next world.
-4. Enjoy the **New Year’s Eve celebration** and watch the fireworks light up the sky.
+3. **Find the Christmas Tree** and place the baubles on it.
+4. **Enter the Carpet** you will spawn to the new world
+5. Enjoy the **New Year’s Eve celebration** and watch the fireworks light up the sky.
 
 ---
 

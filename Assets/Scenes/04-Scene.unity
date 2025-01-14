@@ -268,6 +268,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 82511275328257930, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82511275328257930, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
       propertyPath: MaxDistance
       value: 280.70856
       objectReference: {fileID: 0}
@@ -710,6 +714,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 82177986488765500, guid: 653d6288c2fb78044b75ee8069650868, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -766,6 +774,10 @@ PrefabInstance:
     - target: {fileID: 4976202124956162, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82511275328257930, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 82511275328257930, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
       propertyPath: MaxDistance
@@ -1020,6 +1032,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 82511275328257930, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82511275328257930, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
       propertyPath: MaxDistance
       value: 280.70856
       objectReference: {fileID: 0}
@@ -1083,6 +1099,10 @@ PrefabInstance:
     - target: {fileID: 4976202124956162, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82511275328257930, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 82511275328257930, guid: 98a1fd3bb8bec6f4ba9f2157d347fca6, type: 3}
       propertyPath: MaxDistance
@@ -1521,14 +1541,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562429411}
-  m_LocalRotation: {x: -0.0569621, y: 0.40758005, z: 0.025483787, w: 0.91103476}
+  m_LocalRotation: {x: -0.13074228, y: 0.5390923, z: 0.062206224, w: 0.82970864}
   m_LocalPosition: {x: 0, y: 0, z: 227}
   m_LocalScale: {x: 0.55645686, y: 0.70702666, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 273641931}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -7.155, y: 48.206, z: 0}
+  m_LocalEulerAnglesHint: {x: -16.501, y: 66.354, z: -2.256}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 304, y: 169.04648}

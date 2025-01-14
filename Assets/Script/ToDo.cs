@@ -10,6 +10,7 @@ public class ToDo : MonoBehaviour
     public TextMeshProUGUI toDo;
     public float time = 5.0f;
     private bool hasMethodRun;
+    public GameObject pfeil;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class ToDo : MonoBehaviour
     {
         if (Collect.score >= 9 && !hasMethodRun)
         {
+            pfeil.SetActive(true);
             toDo.text = "Find the Christmas Tree!";
             StartCoroutine(HideTextAfterTime(time));
             hasMethodRun = true;

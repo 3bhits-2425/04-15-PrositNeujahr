@@ -39,3 +39,7 @@ You’ll then be transported to a crazy **New Year's Eve celebration** in 2025, 
 
 🎄 **Step into the magic, collect the baubles, and welcome the New Year in style!** 🎆
 
+---
+
+## Video of the Game
+

@@ -35,7 +35,13 @@ You’ll then be transported to a crazy **New Year's Eve celebration** in 2025, 
 ---
 
 ## 🔧 Lessons learned
--Never import a whole city from the asset store.. it will lead to git hub stop working because of too large files and your project might be ruined.
+# Bad Things:
+- Never import a whole city from the asset store.. it will lead to git hub stop working because of too large files and your project might be ruined.
+- adjust Distance between tree and person
+
+
+# Good things:
+- Asset Store has a lot of cool stuff
 
 🎄 **Step into the magic, collect the baubles, and welcome the New Year in style!** 🎆
 
